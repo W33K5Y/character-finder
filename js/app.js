@@ -23,7 +23,7 @@ userButton.addEventListener("click", () => {
 		}
 	}   
 }
-charCount(userChar,userSentence);
+charCount(userChar.toLowerCase(),userSentence.toLowerCase());
 	message += `<h1>The character was: ${userChar}</h1> 
 	<h2>The amount of characters found in this instance: ${counter}</h2>
 	<p>The sentence was ${userSentence}. </p>`;
